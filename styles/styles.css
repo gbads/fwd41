@@ -1,0 +1,31 @@
+h2 {
+    color: #ff0000;
+}
+
+/* More specific than just selecting p */
+.warning {
+    color: #ff0000;
+}
+
+p {
+    color: #0000ff;
+}
+
+ol li, 
+dd {
+    color: green;
+}
+
+#carrots {
+    color: rgb(255, 165, 0);
+}
+
+section.featured {
+    background-color: azure;
+    /* color: blueviolet; */
+}
+
+/* h2 {
+    color: cornflowerblue;
+} */
+
