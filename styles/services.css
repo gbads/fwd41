@@ -5,14 +5,6 @@ body {
 	font-weight: 400;
 	line-height: 1.5;
 	color: #282828;
-	/* max-width: 31.25rem; */
-	/* margin: 0 auto; */
-}
-
-main {
-	max-width: 75rem;
-	margin: 0 auto;
-	padding: 0 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,6 +52,12 @@ footer {
 	background-color: #eeeeee;
 	text-align: center;
 	padding: 1rem;
+}
+
+main {
+	max-width: 62.5rem;
+	margin: 0 auto;
+	padding: 0 1rem;
 }
 
 footer p {
@@ -125,25 +123,26 @@ nav a {
 
 	.cards {
 		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-evenly;
-		/* flex-direction: column;
+		/*flex-direction: column;
 		flex-direction: column-reverse;
-		flex-direction: row-reverse; */
+		flex-direction: row-reverse;*/
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: stretch;
 	}
 
 	.cards article {
-		/* width: 30%; */
+		/*width: 30%;*/
 		flex: 0 1 30%;
 	}
 
 	.cards .service-1 {
 		flex: 0 1 50%;
 		order: 1;
+		/*align-self: center;*/
 	}
 
 }
-
 
 /* Testimonials Styles */
 .testimonials img {
@@ -161,8 +160,8 @@ nav a {
 	display: inline-block;
 	margin: 0;
 }
-
 @media (min-width: 37.5em) {
+
 	.testimonials {
 		display: flex;
 		flex-wrap: wrap;
@@ -176,4 +175,5 @@ nav a {
 	.testimonials article {
 		max-width: 20rem;
 	}
+
 }
